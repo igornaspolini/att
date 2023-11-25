@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    max-width: 100%;
+    height: 50px;
+    color: #fff;
+    padding: 10px 20px;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav li {
+    font-size: 18px;
+}
+
+article{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+#t {
+    margin-left: 67.8px;
+}
+
+article p {
+    text-align: center;
+    justify-content: center;
+}
+
+article section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    max-width: 100%;
+    width: 380px;
+  }
+  
+  article img {
+    max-width: 100%;
+    width: 380px;
+  }
+@media (max-width: 670px){
+    article{
+        justify-content: center;
+    }
+    article section{
+        width: 400px;
+    }
+    header{
+        height: 300px;
+    }
+    header a{
+    margin-top: -25px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    nav ul{
+    display:flex;
+    flex-direction: column;
+    }
+    nav li{
+        background-color: grey;
+    }
+    #logo{
+        font-size: 40px;
+    }
+    #t {
+        margin-left: 150px;
+    }
+    #l {
+        margin-left: 150px;
+    }
+    #h {
+        margin-left: 150px;
+    }
+   
+}
+@media (max-width:1920px) and (min-width:1719px){
+    article section{
+        width: 260px;
+    }
+    #l{
+        margin-left: 80px;
+    }
+    #h{
+        margin-left: 80px;
+    }
+    #t{
+        margin-left: 80px;
+    }
+    
+}
+@media (max-width:1720px) and (min-width:1599px){
+    article{
+        justify-content: center;
+    }
+    article section{
+        width: 300px;
+    }
+    #l{
+        margin-left: 155px;
+    }
+    #h{
+        margin-left: 155px;
+    }
+    #t{
+        margin-left: 100px;
+    }
+    #e{
+        width: 500px;
+        margin-left: 120px;
+    }
+    #f{
+        width: 500px;
+    }
+}
+@media(max-width:1600px) and (min-width: 1399px){
+    article{
+        justify-content: center;
+    }
+    article section{
+        width: 300px;
+    }
+    #e{
+        width: 400px;
+        margin-left: 20px;
+    }
+    #f{
+        width: 400px;
+    }
+    #t {
+        margin-left: 100px;
+    }
+    #l {
+        margin-left: 150px;
+    }
+    #h {
+        margin-left: 155px;
+    }
+}
+@media(max-width:1400px) and (min-width: 1299px){
+    article{
+        justify-content: center;
+    }
+    article section{
+        width: 300px;
+    }
+    #e{
+        width: 300px;
+        margin-left: 20px;
+    }
+    #f{
+        width: 300px;
+    }
+    #t {
+        margin-left: 100px;
+    }
+    #l {
+        margin-left: 100px;
+    }
+    #h {
+        margin-left: 100px;
+    }
+}
+@media(max-width:1300px) and (min-width: 1059px){
+    article{
+        justify-content: center;
+    }
+    article section{
+        width: 300px;
+    }
+    #e{
+        width: 300px;
+        margin-left: 20px;
+    }
+    #f{
+        width: 300px;
+    }
+    #t {
+        margin-left: 100px;
+    }
+    #l {
+        margin-left: 100px;
+    }
+    #h {
+        margin-left: 100px;
+    }
+}
+@media(max-width:1060px) and (min-width: 899px){
+    article{
+        justify-content: center;
+    }
+    article section{
+        width: 300px;
+    }
+    #e{
+        width: 300px;
+        margin-left: 20px;
+    }
+    #f{
+        width: 300px;
+    }
+    #t {
+        margin-left: 100px;
+    }
+    #l {
+        margin-left: 100px;
+    }
+    #h {
+        margin-left: 100px;
+    }
+}
+@media(max-width:900px) and (min-width: 669px){
+    article{
+        justify-content: center;
+    }
+    article section{
+        width: 400px;
+    }
+    #t {
+        margin-left: 150px;
+    }
+    #l {
+        margin-left: 150px;
+    }
+    #h {
+        margin-left: 150px;
+    }
+   
+}   
